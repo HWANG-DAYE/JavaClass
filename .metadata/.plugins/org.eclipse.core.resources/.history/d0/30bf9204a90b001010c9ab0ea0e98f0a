@@ -34,14 +34,7 @@ public class Example10 {
 				}
 			
 			} else if(selectNo == 4) { // 분석
-				int sum = 0;
-				int max = Integer.MIN_VALUE;
-				for(int score : scores) {
-					sum = sum + score;
-					if(max < score) max = score;
-				}
-				System.out.println("최대 : " + max);
-				System.out.println("평균 : " + (sum / (double)scores.length));
+	
 			} else if(selectNo == 5) {
 				run = false;
 			}

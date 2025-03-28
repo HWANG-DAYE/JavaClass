@@ -18,7 +18,7 @@ public class Example10 {
 			int selectNo = sc.nextInt();
 			
 			if(selectNo == 1) {
-				System.out.print("학생수>");
+				System.out.println("학생수>");
 				studentNum = sc.nextInt();
 				scores = new int[studentNum];
 			
@@ -33,15 +33,8 @@ public class Example10 {
 					System.out.printf("scores[%d] : %d\n", i, scores[i]);
 				}
 			
-			} else if(selectNo == 4) { // 분석
-				int sum = 0;
-				int max = Integer.MIN_VALUE;
-				for(int score : scores) {
-					sum = sum + score;
-					if(max < score) max = score;
-				}
-				System.out.println("최대 : " + max);
-				System.out.println("평균 : " + (sum / (double)scores.length));
+			} else if(selectNo == 4) {
+	
 			} else if(selectNo == 5) {
 				run = false;
 			}

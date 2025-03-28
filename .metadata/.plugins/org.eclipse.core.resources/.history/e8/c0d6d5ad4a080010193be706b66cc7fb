@@ -1,0 +1,17 @@
+package EX;
+
+import java.util.Scanner;
+
+public class ForEx01 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("ют╥б : ");
+		int n = sc.nextInt();
+		int m = 1;
+		
+		for(int i=1; i<=n; i++) {
+			m = m*1;
+		}
+		System.out.println(m);
+	}
+}

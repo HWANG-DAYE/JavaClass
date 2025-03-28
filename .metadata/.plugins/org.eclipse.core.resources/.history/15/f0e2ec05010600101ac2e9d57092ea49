@@ -1,0 +1,15 @@
+package project0321;
+
+public class RandomEx02 {
+	public static void main(String[] args) {
+		int num = (int)(Math.random()*3)+1;
+		
+		if(num==1) {
+			System.out.println("가위");
+		} else if(num==2) {
+			System.out.println("바위");
+		} else {
+			System.out.println("보");
+		}
+	}
+}

@@ -1,0 +1,11 @@
+package EX;
+
+import java.util.Scanner;
+
+public class ForEx03 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("ют╥б : ");
+		int n = sc.nextInt();
+	}
+}

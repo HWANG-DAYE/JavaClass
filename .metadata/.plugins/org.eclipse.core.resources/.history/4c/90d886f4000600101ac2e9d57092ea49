@@ -1,0 +1,8 @@
+package project0321;
+
+public class RandomEx02 {
+	public static void main(String[] args) {
+		System.out.println((int)(Math.random()*3)+1);
+		
+	}
+}

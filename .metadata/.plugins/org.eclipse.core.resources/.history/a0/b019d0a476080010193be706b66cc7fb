@@ -1,0 +1,13 @@
+package EX;
+
+public class ForEx09 {
+	public static void main(String[] args) {
+		
+		for(int z =2; z<=9; z++) {
+			System.out.println("*******" + z + "´Ü*******");
+			for(int i=1; i<=9; i++) {
+				System.out.printf("%3d",z + "x" + i + "=" + (z*i));
+			}
+		}
+	}
+}

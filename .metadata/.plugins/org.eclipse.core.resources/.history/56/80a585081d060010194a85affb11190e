@@ -1,0 +1,42 @@
+package project0321;
+
+import java.util.Scanner;
+
+public class RandomEx02 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("입력 : ");
+		String me = sc.next();
+		System.out.println("사용자 : " + me);
+		
+		int p = 0;
+		
+		switch(me) {
+		case "가위" :
+			break;
+		case "바위" :
+			break;
+		case "보" :
+			break;
+		}
+		
+		int number = (int)(Math.random()*3)+1;
+//		System.out.println(number);
+		String num = "";
+//		if(number==1) {
+//			num="가위";
+//		} else if(number==2) {
+//			num="바위";
+//		} else {
+//			num="보";
+//		}
+//		System.out.println(num);
+		
+		num = number==1? "가위" : number==2? "바위" : "보";
+		System.out.println("컴퓨터 : " + num);
+		
+//		이기고 지고 비기고 추가
+		if()
+		
+	}
+}

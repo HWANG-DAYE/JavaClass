@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;EX.PrintEx&apos; to &apos;PrintEx01&apos;&#x0D;&#x0A;- Original project: &apos;project0324&apos;&#x0D;&#x0A;- Original element: &apos;EX.PrintEx&apos;&#x0D;&#x0A;- Renamed element: &apos;EX.PrintEx01&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;PrintEx&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;EX{PrintEx.java[PrintEx" matchStrategy="1" name="PrintEx01" qualified="false" references="true" similarDeclarations="false" stamp="1742784459851" textual="false" version="1.0"/>
+</session>

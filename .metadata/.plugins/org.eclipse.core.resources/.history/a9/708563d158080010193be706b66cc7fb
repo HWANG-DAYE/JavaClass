@@ -1,0 +1,14 @@
+package EX;
+
+public class PrintEx {
+	public static void main(String[] args) {
+		int n = 32;
+		System.out.printf("%3d\n", n);
+		System.out.printf("%-3d\n", n);
+		
+		double d = 3.141592;
+		System.out.printf("%6.3f\n", d);
+		System.out.printf("%.3f\n", d);
+		System.out.printf("f\n", d);
+	}
+}

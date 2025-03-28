@@ -1,0 +1,10 @@
+package project0326;
+
+public class Question01 {
+	public static void main(String[] args) {
+		char ch = 'z';
+		boolean b = (/* (a) */);
+		
+		System.out.println(b);
+	}
+}

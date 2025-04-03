@@ -1,7 +1,0 @@
-package project0326;
-
-public class CalCulatorEx {
-	public static void main(String[] args) {
-		
-	}
-}

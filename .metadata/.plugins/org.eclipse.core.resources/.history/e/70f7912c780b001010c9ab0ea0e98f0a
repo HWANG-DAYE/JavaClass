@@ -1,7 +1,0 @@
-package project0328;
-
-public class MultiArr {
-	public static void main(String[] args) {
-		int[][] arr = {{98,99}, {100,80,70}, {50,60}};
-	}
-}

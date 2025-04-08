@@ -44,26 +44,28 @@ public class Main {
 				System.out.println("결과를 계산 중입니다.");
 				Thread.sleep(1000);
 				
-				// sting타입인 input을 double로 바꿔줌/음수는 절대값으로 
-				double value = Math.abs(Double.parseDouble(input));
+				// sting타입인 input을 double로 바꿔줌
+				double value = Double.parseDouble(input);
 				
 				String result = "";
+				// 결과 값은 소수점 둘째 자리까지 반올림 : Math.round() 사용
 				if(unit.equals("1")) {
-					result = value + "달러 -> " + converter.Won_d(value) + " 원";
+					result = value + "$ -> " + Math.round(converter.Won_d(value) * 100) / 100.0 + " 원";
 				} else if(unit.equals("2")) {
-					result = value + "엔 -> " + converter.Won_y(value) + " 원";
+					result = value + "￥ -> " + Math.round(converter.Won_y(value) * 100) / 100.0 + " 원";
 				} else if(unit.equals("3")) {
-					result = value + "인치 -> " + converter.Cm(value) + " 원";
+					result = value + "inch -> " + Math.round(converter.Cm(value) * 100) / 100.0 + " cm";
 				} else if(unit.equals("4")) {
-					result = value + "파운드 -> " + converter.Kg(value) + " 원";
+					result = value + "lb -> " + Math.round(converter.Kg(value) * 100) / 100.0 + " kg";
 				} else if(unit.equals("5")) {
-					result = value + "평 -> " + converter.Meter(value) + " 원";
+					result = value + "평 -> " + Math.round(converter.Meter(value) * 100) / 100.0 + " m2";
 				} else {
 					System.out.println("잘못된 단위 선택입니다.");
                     continue;
 				}
 				
 				System.out.println("결과 : " + result + "입니다.");
+				history.save(result);
 			
 		// 2번 선택했을 때 이전 결과 전부 불러오기		
 		} else if (menu.equals("2")) {

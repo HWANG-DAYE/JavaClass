@@ -10,5 +10,15 @@
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="project0407.HankookTire"/>
     <fullyQualifiedTypeName name="project0407.KumhoTire"/>
+    <fullyQualifiedTypeName name="project0409.SmartPhone"/>
+    <fullyQualifiedTypeName name="project0410.Searchable"/>
+    <fullyQualifiedTypeName name="project0410.RoundRobin"/>
+    <fullyQualifiedTypeName name="project0410.LeastJob"/>
+    <fullyQualifiedTypeName name="project0410.PriorityAllocation"/>
+    <fullyQualifiedTypeName name="project0410.RemoteControl"/>
+    <fullyQualifiedTypeName name="project0410.Television"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="project0410.MyClassA"/>
+    <fullyQualifiedTypeName name="project0410.MyInterface"/>
+    <fullyQualifiedTypeName name="project0410.MyclassB"/>
 </qualifiedTypeNameHistroy>

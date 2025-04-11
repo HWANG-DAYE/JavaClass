@@ -17,8 +17,11 @@
     <fullyQualifiedTypeName name="project0410.PriorityAllocation"/>
     <fullyQualifiedTypeName name="project0410.RemoteControl"/>
     <fullyQualifiedTypeName name="project0410.Television"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="project0410.MyClassA"/>
     <fullyQualifiedTypeName name="project0410.MyInterface"/>
     <fullyQualifiedTypeName name="project0410.MyclassB"/>
+    <fullyQualifiedTypeName name="project0411.Ex7_22.Shape"/>
+    <fullyQualifiedTypeName name="java.awt.Point"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="project0411.NullPointerExceptionEx"/>
 </qualifiedTypeNameHistroy>
